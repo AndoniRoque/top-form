@@ -25,7 +25,11 @@ form > label {
 
 input[type=number] {
     -moz-appearance: textfield;
-  }
+}
+
+input:invalid {
+    border-color: red;
+}
 
 select {
     background-color: white;

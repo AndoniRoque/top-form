@@ -13,25 +13,28 @@
         <legend>Form</legend>
         <form action="https://httpbin.org/post" method="post">
             <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" placeholder="Juan" name="first_name">
+            <input type="text" id="first_name" placeholder="Juan" name="first_name" required>
 
             <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" placeholder="Perez" name="last_name">
+            <input type="text" id="last_name" placeholder="Perez" name="last_name" required>
 
             <label for="age">Age:</label>
             <input type="number" id="age" placeholder="18" name="age">
 
             <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="dob">
+            <input type="date" id="dob" name="dob"  min="2019-12-25" required >
 
             <label for="email">E-Mail:</label>
-            <input type="email" id="email" placeholder="juan.perez@email.com" name="email">
+            <input type="email" id="email" placeholder="juan.perez@email.com" name="email" required>
+
+            <label for="credit_card">Credit Card:</label>
+            <input type="credit_card" id="credit_card" placeholder="1234-4567-7890-1234" name="credit_card" pattern="/\b(?:\d[ -]*?){13,16}\b/g" required>
 
             <label for="user_password">Password:</label>
-            <input type="password" id="user_password" name="password">
+            <input type="password" id="user_password" name="password" required>
 
             <label for="comments">Comments: </label>
-            <textarea rows="3" cols="40">Aditional Comments</textarea>
+            <textarea rows="3" cols="40" minlength="3">Aditional Comments</textarea>
 
             <label for="fashion">Fashion:</label>
             <select name="fashion">
