@@ -1,4 +1,41 @@
 html,
 body{
     background-color: darkslategrey;
+    color: lightcoral;
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: 2px solid lightcoral;
+    color: lightcoral;
+    width: 50vh;
+}
+
+form {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+
+}
+
+form > label {
+    align-self: end;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+select {
+    background-color: white;
+}
+
+button {
+    width: 25vh;
+    display: inline;
+}
+
+button:hover {
+    background-color: lightcoral ;
 }
