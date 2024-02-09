@@ -7,6 +7,10 @@ body{
     color: goldenrod;
     overflow: hidden;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 1;
+    background-image:  radial-gradient(rgba(38, 44, 39, 1) 1.05px, transparent 1.05px), radial-gradient(rgba(38, 44, 39, 1) 1.05px, darkslategrey 1.05px);
+    background-size: 42px 42px;
+    background-position: 0 0,21px 21px;
 }
 
 .container {
@@ -81,7 +85,7 @@ button {
     margin: 20px;
     width: 15vw;
     height: 5vh;
-    background-color: #94B0D8;
+    background-color:#FBB9B0;
     outline: none;
     border: none;
     border-radius: 20px;
@@ -89,7 +93,7 @@ button {
 }
 
 button:hover {
-    background-color:#FBB9B0;
+    background-color: #94B0D8;
 }
 
 button:active {
@@ -145,3 +149,7 @@ input[type=number] {
         scale: 1.5;
     }
 }
+
+
+
+
