@@ -7,10 +7,10 @@ body{
     color: goldenrod;
     overflow: hidden;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #1aa659;
     opacity: 1;
-    background-image:  radial-gradient(rgba(38, 44, 39, 1) 1.05px, transparent 1.05px), radial-gradient(rgba(38, 44, 39, 1) 1.05px, darkslategrey 1.05px);
-    background-size: 42px 42px;
-    background-position: 0 0,21px 21px;
+    background: radial-gradient(circle, transparent 20%, darkslategrey 20%, darkslategrey 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, darkslategrey 20%, darkslategrey 80%, transparent 80%, transparent) 52.5px 52.5px, linear-gradient(rgba(38, 44, 39, 1) 4.2px, transparent 4.2px) 0 -2.1px, linear-gradient(90deg, rgba(38, 44, 39, 1) 4.2px, darkslategrey 4.2px) -2.1px 0;
+    background-size: 105px 105px, 105px 105px, 52.5px 52.5px, 52.5px 52.5px;
 }
 
 .container {
